@@ -2,6 +2,7 @@ import Link from "next/link"
 import React from "react"
 import Navbar from "./Navbar"
 import { Button } from "./ui/button"
+import MobileNav from "./MobileNav"
 
 const Header = () => {
   return (
@@ -24,7 +25,9 @@ const Header = () => {
         </div>
 
         {/* mobile Nav */}
-        <div className='lg:hidden'>Mobile Navabar</div>
+        <div className='lg:hidden'>
+          <MobileNav />
+        </div>
       </div>
     </header>
   )
