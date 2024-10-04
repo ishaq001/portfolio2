@@ -16,13 +16,11 @@ const stairAnimation = {
 const Stairs = ({ location }: { location: string }) => {
   let NavigatingTo: string | string[] = ""
   if (location === "/") {
-    console.log("yes")
     NavigatingTo = ["H", "O", "M", "E"]
   } else {
     NavigatingTo = location.split("/")[1].toUpperCase().split("")
   }
 
-  console.log(NavigatingTo, location, "aas")
   return (
     <>
       {NavigatingTo.map((item, index) => (
