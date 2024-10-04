@@ -33,7 +33,7 @@ const MobileNav = () => {
                 className={`${
                   path === pathname && "text-accent border-b-2 border-accent"
                 } capitalize
-                   hover:text-accent text-xl transition-all`}
+                   hover:text-accent-hover text-xl transition-all`}
               >
                 {name}
               </Link>

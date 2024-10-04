@@ -16,7 +16,7 @@ const Navbar = () => {
           className={`${
             path === pathname && "text-accent border-b-2 border-accent"
           } capitalize font-medium
-           hover:text-accent transition-all `}
+           hover:text-accent-hover transition-all `}
         >
           {name}
         </Link>
