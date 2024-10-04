@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --font-jetbrainsMono: "JetBrains Mono", monospace;
+    --primary-color: #1c1c22;
+  }
+
+  body {
+    @apply font-primary bg-primary text-white leading-loose; /* Ensure this line is present */
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
