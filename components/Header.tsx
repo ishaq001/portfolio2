@@ -12,7 +12,7 @@ const Header = () => {
 
         <Link href='/'>
           <h1 className='text-4xl font-semibold'>
-            Muhammad <span className='text-accent'>Ishaq</span>
+            Muhammad<span className='text-accent'>.</span>
           </h1>
         </Link>
 
