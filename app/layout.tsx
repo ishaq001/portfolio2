@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${jetBrainsMono.variable} overflow-hidden`}>
+      <body className={`${jetBrainsMono.variable} xl:overflow-hidden`}>
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
