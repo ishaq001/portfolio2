@@ -1,6 +1,7 @@
 import ProfilePicture from "@/components/ProfilePicture"
 import SocialAccounts from "@/components/SocialAccounts"
 import { Button } from "@/components/ui/button"
+import Stats from "@/components/ui/Stats"
 
 import { FiDownload } from "react-icons/fi"
 const Home = () => {
@@ -10,8 +11,8 @@ const Home = () => {
         <div className='flex flex-col items-center justify-between xl:flex-row xl:pt-8 xl:pb-24'>
           {/* Intro */}
           <div className='text-center xl:text-left order-2 xl:order-none'>
-            <span className='text-xl'>Software Engineer</span>
-            <h1 className='h1 mb-6'>
+            <span className='text-xl '>Software Engineer</span>
+            <h1 className='h1 mt-2 mb-5'>
               Hello I'm <br />
               <span className='text-accent'>Muhammad Ishaq</span>
             </h1>
@@ -45,6 +46,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* Stats */}
+      <Stats />
     </section>
   )
 }
