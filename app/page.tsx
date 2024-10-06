@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section>
       <div className='container mx-auto '>
-        <div className='flex flex-col items-center justify-between xl:flex-row xl:pt-8 xl:pb-24'>
+        <div className='flex flex-col items-center justify-between xl:flex-row xl:pt-8 xl:pb-14'>
           {/* Intro */}
           <div className='text-center xl:text-left order-2 xl:order-none'>
             <span className='text-xl '>Software Engineer</span>
