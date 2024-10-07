@@ -51,7 +51,7 @@ const Services = () => {
               ease: "easeIn",
             },
           }}
-          className='grid grid-cols-1 md:grid-cols-2 gap-[50px]'
+          className='grid grid-cols-1 md:grid-cols-2 gap-[80px]'
         >
           {services.map(({ description, href, num, title }, index) => {
             return (
