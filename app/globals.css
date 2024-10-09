@@ -29,6 +29,12 @@
   .text-outline-hover {
     -webkit-text-stroke: 1px #00ff99;
   }
+
+  input:-internal-autofill-selected {
+    @apply bg-primary text-accent !important; /* Use Tailwind classes */
+    background-image: none !important; /* Remove any background image */
+    appearance: none; /* Override appearance if needed */
+  }
 }
 
 @layer utilities {
