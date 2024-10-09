@@ -46,7 +46,7 @@ export const navLinks = [
   },
 ]
 
-// Resume Page Data
+// Resume-Page-Data
 // About Me Data
 export const aboutMe = {
   title: "About Me",
@@ -200,8 +200,7 @@ export const skills = {
   ],
 }
 
-// Service Page Data
-
+// Service-Page-Data
 export const services = [
   {
     num: "01",
@@ -233,7 +232,7 @@ export const services = [
   },
 ]
 
-// Stats Data- HomePage
+// Stats-Data-HomePage
 export const stats = [
   {
     num: 5,
@@ -253,7 +252,7 @@ export const stats = [
   },
 ]
 
-// social Accounts - HomePage
+// social-Accounts-HomePage
 export const socialLinks = [
   {
     icon: <FaGithub />,
@@ -270,5 +269,53 @@ export const socialLinks = [
   {
     icon: <FaTwitter />,
     path: "",
+  },
+]
+
+// WORK-PAGE-DATA
+export const projects = [
+  {
+    num: "01",
+    category: "Frontend",
+    title: "Project 1",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio magnam accusamus nesciunt cumque beatae porro necessitatibus assumenda repellat magni voluptatum expedita quidem alias, laudantium atque adipisci asperiores consequatur nemo vel.",
+    stack: [{ name: "HTML5" }, { name: "css3" }, { name: "javascript" }],
+    image: "/assets/work/thumb1.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "02",
+    category: "Frontend",
+    title: "Project 1",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio magnam accusamus nesciunt cumque beatae porro necessitatibus assumenda repellat magni voluptatum expedita quidem alias, laudantium atque adipisci asperiores consequatur nemo vel.",
+    stack: [{ name: "HTML5" }, { name: "css3" }, { name: "javascript" }],
+    image: "/assets/work/thumb2.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "03",
+    category: "Frontend",
+    title: "Project 1",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio magnam accusamus nesciunt cumque beatae porro necessitatibus assumenda repellat magni voluptatum expedita quidem alias, laudantium atque adipisci asperiores consequatur nemo vel.",
+    stack: [{ name: "HTML5" }, { name: "css3" }, { name: "javascript" }],
+    image: "/assets/work/thumb3.png",
+    live: "",
+    github: "",
+  },
+  {
+    num: "04",
+    category: "Frontend",
+    title: "Project 1",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio magnam accusamus nesciunt cumque beatae porro necessitatibus assumenda repellat magni voluptatum expedita quidem alias, laudantium atque adipisci asperiores consequatur nemo vel.",
+    stack: [{ name: "HTML5" }, { name: "css3" }, { name: "javascript" }],
+    image: "/assets/work/thumb1.png",
+    live: "",
+    github: "",
   },
 ]
